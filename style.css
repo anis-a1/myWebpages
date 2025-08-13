@@ -54,7 +54,7 @@ h1{
 .bar li a:hover{
     color: yellow;
     display: none;
-    background: transparent;
+    background: yellow;
   
 }
 .bar li a:active{
@@ -62,7 +62,7 @@ h1{
     background: gray;
 }
 .dropdown{
-    background: transparent;
+    background: yellow;
     list-style: none;
     display: none;
     width: 30px;
