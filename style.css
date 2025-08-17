@@ -4,7 +4,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 */
 /* 
     Created on : 13-May-2025, 5:58:11 PM
-    Author     : anisu
+    Author: anisu
 */
 body{
     background: #996600;
@@ -18,7 +18,7 @@ h1{
     top: 5%;
 }
  *{
-    box-sizing: border-box !important;
+    box-sizing: border-box ;
      }
 .bar{
     width: 100%;
@@ -35,50 +35,41 @@ h1{
               border-right: 1px solid rgb(235, 177, 69);
               color: wheat;
           }
-.bar li a{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    text-decoration: none;
-    color: yellow;
-}
-.bar has-dropdown ul li a{
-   padding: 10px;
-   background-color: black;
-   color: wheat;
-   width: 30px;
-}
-.bar li a:hover{
-    color: yellow;
-    display: none;
-    background: yellow;
-  
-}
-.bar li a:active{
-    color: red;
-    background: gray;
-}
-.dropdown{
-    background: yellow;
-    list-style: none;
-    display: none;
-    width: 30px;
-    padding: 0;
-    color: yellow;
-    
-}
-.bar li.has-dropdown:hover .dropdown{
-    display: block;
-    background: transparent;
-    color: yellow;
-    width: 40px;
-    height: 30px;
-    text-transform: uppercase;
-    padding: 0;
-}
+          .bar li a{
+              color: wheat;
+              width: 100%;
+              height: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              }
+              .bar has-dropdown ul li a{
+                  padding: 12px;
+                  width: 20px;
+                 
+                
+                     }
+                     .bar li a: hover{
+                         background-color: #660000;
+                     }
+                     .bar li a.active{
+                           background-color: #990099;
+                         color: white;
+                     }
+                     .dropdown{
+                       background-color: #990033;
+                       padding: 0;
+                       list-style: none;
+                       display: none;
+                       color: wheat;                     
+                     }
+                     bar li.has-dropdown:hover .dropdown{
+                         display: block;
+                         background-color: #9933ff;
+                         color: red;                           
+                     }
+                    
 
 *{
     margin: 0;
