@@ -63,7 +63,7 @@ h1{
                        display: none;
                        color: wheat;                     
                      }
-                     .bar li.has-dropdown:hover.dropdown{
+                     .bar li.has-dropdown:hover .dropdown{
                          display: block;
                          background-color: #9933ff;
                          color: red;                           
